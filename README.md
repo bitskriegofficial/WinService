@@ -6,7 +6,14 @@ A windows service is an application which runs in the background. In this projec
 
 # Goal for Current Version 
 The first version of the service aims to detect near run-time changes in windows registry for different processes 
-
+Steps:
+<ol>
+<li>Build the basic outline for the service which performs simple functions (as proof of build)</li>
+<li>Add drive mount/unmount detection capability</li>
+<li>Add detection for number of children of processes</li>
+<li>Add registry key change detection functionality</li>
+<li>Add functionality to detect subkey changes as well</li>
+</ol>
 # Resources
 <ul>
 <li>
@@ -18,7 +25,7 @@ Windows process <a href="https://docs.microsoft.com/en-us/windows/win32/procthre
 </ul>
 
 # Disclaimer 
-The author and orgainzation do not bear any responsibility of any damage caused by the service.
+The author(s) and organization do not bear any responsibility for any damage caused by the use of this service. It is being built as a simple logging service inside windows which can detect certain changes. Any modifications which account to malicious use are prohibited, and the author(s) and organization cannot be held liable for use of such modified software.
 
 # Licensing 
 To be decided.
